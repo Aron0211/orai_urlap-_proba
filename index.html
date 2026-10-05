@@ -7,7 +7,8 @@
     <meta name="author" content="Papp Áron">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stilus.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="flex.css">
+    <title> Űrlap / Papp Áron</title>
 </head>
 <body>
     <main>
@@ -17,14 +18,14 @@
         <nav>
             <ul>
                 <li><a href="index.html">Menü1</a></li>
-                <li><a href="viragocska.html">Menü2</a></li>
-                <li><a href="#">Menü3</a></li>
+                <li><a href="index.html">Menü2</a></li>
+                <li><a href="index.html">Menü3</a></li>
             </ul>
         </nav>
         <article>
             <form >
 
-                <fieldset>
+                <fieldset class="adat">
                     <legend>Személyes adatok</legend>
                 
                     <div class="nev">
@@ -45,23 +46,23 @@
                     </div>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="nem">
                     <legend>Nem</legend>
                 
-                    <div class="nev">
-                        <label for="nev">Férfi </label>
-                        <input type="radio" id="nem" name="nem" value="nem">
+                    <div class="nem">
+                        <label for="ferfinem">Férfi </label>
+                        <input type="radio" id="ferfinem" name="ferfinem" value="ferfinem">
                     </div>
 
 
-                    <div class="">
-                        <label for="psw">Nő</label>
-                        <input type="radio" id="nem" name="nem" value="nem">
+                    <div class="nem">
+                        <label for="noinem">Nő</label>
+                        <input type="radio" id="noinem" name="noinem" value="noinem">
                     </div>
 
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="hobbi">
                     <legend>Hobbi - többet is bejelölhetsz</legend>
                 
                     <div class="hobbi">
@@ -82,7 +83,7 @@
 
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="lokacio">
                     <legend>Lokáció</legend>
                     
                     <label for="orszag">Válaszd ki az országodat: </label>

@@ -1,0 +1,13 @@
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

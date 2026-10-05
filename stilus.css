@@ -26,8 +26,6 @@ nav{
 
 nav ul{
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
 
 }
 
@@ -52,14 +50,20 @@ fieldset{
     margin: 20px;
 }
 
-.submit{
-    margin: 20px;
+.adat div{
+    margin: 10px;
 }
 
-form{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+.nem div{
+    margin: 5px;
+}
+
+.hobbi div{
+    margin: 5px;
+}
+
+.submit{
+margin: 20px;
 }
 
 footer{
@@ -69,4 +73,5 @@ footer{
 
 footer p{
     margin: 10px;
+    text-align: center;
 }
